@@ -22,7 +22,7 @@ This project employs a data-driven approach to identify distinct customer profil
 
 - Pandas: Utilized for data preprocessing and analysis.
 - Matplotlib, Seaborn: Employed for creating informative data visualizations.
-- Scikit-Learn: Used to develop and deploy the K-Means clustering model.
+- Scikit-Learn: Used to develop the K-Means clustering model.
 
 # ✅ **Results**
 
