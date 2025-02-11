@@ -14,9 +14,9 @@ This project employs a data-driven approach to identify distinct customer profil
 
 - Exploratory Data Analysis (EDA): Investigate relationships between spending habits, demographics, and income levels. Visualize distributions and correlations to inform feature selection.
 
-- Model Training: Implement clustering models for customer segmentation using K-Means, focusing on attributes such as income, number of children, age, marital status, product engagement, and education.
+- Model Training: Implement clustering models for customer segmentation using K-Means, Kmedoids, DBSCAN, Hierarchical Clustering (Agglomerative), PCA, focusing on attributes such as income, number of children, age, marital status, product engagement, and education. 
 
-- Model Evaluation: Assess the performance of the chosen clustering model to ensure it effectively identifies well-defined customer groups.
+- Model Evaluation: Assess the performance of the chosen clustering model to ensure it effectively identifies well-defined customer groups. For the evaluation we used Silhouette Score and Elbow method.
 
 # 🛠️ **Technologies used**
 
@@ -26,7 +26,7 @@ This project employs a data-driven approach to identify distinct customer profil
 
 # ✅ **Results**
 
-The clustering analysis revealed three distinct customer segments:
+We concluded that our best option was Kmeans with k=3. So, the clustering analysis revealed three distinct customer segments:
 - Cluster 0: Low-income families with small children.
 - Cluster 1: Medium-income families with teenagers.
 - Cluster 2: High-spending individuals without children, showing a significantly higher response rate to targeted campaigns.
